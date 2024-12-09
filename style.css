@@ -19,7 +19,7 @@ li {
   overflow: auto;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch; 
-  scrollbar-width: thin; /* Minimiza a largura da barra de rolagem no Firefox */
+  /* scrollbar-width: thin; Minimiza a largura da barra de rolagem no Firefox */
   /* scrollbar-color: grey #fff; */
 
 }
