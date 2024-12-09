@@ -15,8 +15,8 @@ li {
 .menu-content {
   display: flex;
   justify-content: space-evenly;
-  background-color: #777;
-  overflow: auto;
+  background-color: #333;
+  overflow: scroll;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch; 
   /* scrollbar-width: thin; Minimiza a largura da barra de rolagem no Firefox */
