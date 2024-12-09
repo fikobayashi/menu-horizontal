@@ -1,0 +1,37 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.menu-content {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #777;
+  overflow: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; 
+  scrollbar-width: thin; /* Minimiza a largura da barra de rolagem no Firefox */
+  /* scrollbar-color: grey #fff; */
+
+}
+
+.menu-content a {
+  text-decoration: none;
+  color: #f1f1f1;
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+}
+
+.menu-content a:hover {
+  background-color: #9d9d9d;
+}
