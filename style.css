@@ -14,14 +14,13 @@ li {
 
 .menu-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: #333;
-  overflow: scroll;
+  overflow-x: scroll;
   white-space: nowrap;
-  -webkit-overflow-scrolling: touch; 
+  -webkit-overflow-scrolling: touch;
   /* scrollbar-width: thin; Minimiza a largura da barra de rolagem no Firefox */
   /* scrollbar-color: grey #fff; */
-
 }
 
 .menu-content a {
@@ -29,9 +28,40 @@ li {
   color: #f1f1f1;
   display: inline-block;
   text-align: center;
-  padding: 14px;
+  padding: 14px 30px;
 }
 
 .menu-content a:hover {
   background-color: #9d9d9d;
+}
+
+@media (max-width: 1000px) {
+  .menu-content {
+    justify-content: start;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .menu-content a {
+    padding: 14px 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .menu-content a {
+    padding: 14px 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .menu-content a {
+    padding: 14px 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .menu-content a {
+    padding: 14px 12px;
+  }
 }
